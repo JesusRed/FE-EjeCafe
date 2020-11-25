@@ -1,0 +1,23 @@
+#image_index {
+  background-image: url(/images/index_image.jpg);
+  height: 500px;
+  width: 100%;
+  background-color: #86d39f;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.footer {
+  width: 100%;
+}
