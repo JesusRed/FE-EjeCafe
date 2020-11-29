@@ -21,3 +21,29 @@ main {
 .footer {
   width: 100%;
 }
+
+#body_login {
+  margin: 0;
+  padding: 0;
+  background-color: #86d39f;
+  height: 100vh;
+}
+#login #cont #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid white;
+  background-color: white;
+}
+#login #cont #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login #cont #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+#panel_card_image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
