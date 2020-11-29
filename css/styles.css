@@ -42,3 +42,22 @@ main {
   margin-top: -85px;
 }
 
+#image_card{
+  background-image: url(/images/index_image.jpg);
+  height: 180px;
+  width: 100%;
+  background-color: #86d39f;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image_card_1{
+  background-image: url(/images/perfil.jpg);
+  height: 180px;
+  width: 100%;
+  background-color: #86d39f;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

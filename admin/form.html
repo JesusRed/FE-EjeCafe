@@ -53,44 +53,18 @@
     <main>
         <div class="container">
             <br />
-            <h1>texto de bienvenida</h1>
-            <h6>aqui una descripcion de lo que puede hacer</h6>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card border-primary mb-3">
-                        <h3 class="card-header">Producto</h3>
-                        <div id="image_card">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Registre servicios de turismo, inmuebles de su propiedad y las
-                                artesanias a ofertar, igualmente puede listar todos los productos que anteriormente ha
-                                registrado.</p>
-                        </div>
-
-                        <div class="card-body text-center">
-                            <a href="form.html" class="btn btn-primary btn-md active" role="button"
-                                aria-pressed="true">Listar</a>
-                            <a href="list.html" class="btn btn-primary btn-md active" role="button"
-                                aria-pressed="true">Registrar</a>
-                        </div>
+            <h1>Registre un nuevo servicio de turismo</h1>
+            <div class="container-fluid">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Titulo</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del servicio de turismo">
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card border-primary mb-3">
-                        <h3 class="card-header">Nosotros</h3>
-                        <div id="image_card_1">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Edite su informacion personal</p>
-                        </div>
-
-                        <div class="card-body text-center">
-                            <a href="list.html" class="btn btn-primary btn-md active" role="button"
-                                aria-pressed="true">Editar</a>
-                        </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Descripcion</label>
+                      <textarea placeholder="Breve descripcion del servicio de turismo" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                </div>
+                  </form>
             </div>
         </div>
         <br />
