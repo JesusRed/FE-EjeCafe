@@ -55,41 +55,29 @@
             <br />
             <h1>Registre un nuevo producto</h1>
             <br>
-            <div class="container-fluid">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Listado categoria de productos</label>
-                        <select class="custom-select">
-                            <option selected="">Seleccione un tipo de producto</option>
-                            <option value="1">Turismo</option>
-                            <option value="2">Inmueble</option>
-                            <option value="3">Artesania</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Titulo</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Nombre del servicio de turismo">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Descripcion</label>
-                        <textarea placeholder="Breve descripcion del servicio de turismo" class="form-control"
-                            id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="example-datetime-local-input" class="col-form-label">Fecha de creacion</label>
-                        <input class="form-control" type="date" id="example-datetime-local-input">
-                    </div>
-                    <div class="form-group">
-                        <div class="custom-file">
-                            <label class="custom-file-label" for="inputGroupFile02">Lista de imagenes...</label>
-                            <input type="file" name="img" class="custom-file-input" id="inputGroupFile02" multiple>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-primary">Registrar</button>
-                    </div>
-                </form>
+            <div class="container-fluid table-responsive">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">Opciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Parapentismo</td>
+                            <td>Se ofrece un servicio con un costo...</td>
+                            <td>
+                                <button type="button" class="btn btn-warning">Editar</button>
+                                <button type="button" class="btn btn-danger">Eliminar</button>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
             </div>
         </div>
         <br />
