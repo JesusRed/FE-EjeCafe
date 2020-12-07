@@ -38,7 +38,7 @@
                                 <a class="nav-link" href="/content/inmueble.html">INMUEBLES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/content/fincas.html">FINCAS</a>
+                                <a class="nav-link" href="/content/fincas.html">CABAÑAS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/content/artesania.html">ARTESANIAS</a>
@@ -56,31 +56,128 @@
     <main>
         <div class="container">
             <br />
-            <h1>Registre un nuevo producto</h1>
+            <h1>Listado de los productos registrados</h1>
             <br>
-            <div class="container-fluid table-responsive">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">ID</th>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Descripcion</th>
-                            <th scope="col">Opciones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Parapentismo</td>
-                            <td>Se ofrece un servicio con un costo...</td>
-                            <td>
-                                <button type="button" class="btn btn-warning">Editar</button>
-                                <button type="button" class="btn btn-danger">Eliminar</button>
-                            </td>
-                        </tr>
-                        
-                    </tbody>
-                </table>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#turismo">Turismo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#cabañas">Cabañas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#inmuebles">Inmuebles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#artesanias">Artesanias</a>
+                </li>
+            </ul>
+            <br>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade active show" id="turismo">
+                    <div class="container-fluid table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Descripcion</th>
+                                    <th scope="col">Opciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Parapentismo</td>
+                                    <td>Se ofrece un servicio con un costo...</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning">Editar</button>
+                                        <button type="button" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="cabañas">
+                    <div class="container-fluid table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Descripcion</th>
+                                    <th scope="col">Opciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Cabaña 1</td>
+                                    <td>Hermosa cabaña en Calarca, Quindio...</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning">Editar</button>
+                                        <button type="button" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="inmuebles">
+                    <div class="container-fluid table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Descripcion</th>
+                                    <th scope="col">Opciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Apartamento</td>
+                                    <td>Gran apartamento ubicado en zona centrica de la ciudad...</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning">Editar</button>
+                                        <button type="button" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="artesanias">
+                    <div class="container-fluid table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Descripcion</th>
+                                    <th scope="col">Opciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Pulsera</td>
+                                    <td>Adorno para dama hecho con...</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning">Editar</button>
+                                        <button type="button" class="btn btn-danger">Eliminar</button>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
         <br />
