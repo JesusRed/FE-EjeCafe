@@ -3,7 +3,7 @@
   height: 500px;
   width: 100%;
   background-color: #86d39f;
-  background-position: center;
+  background-position: initial;
   background-repeat: no-repeat;
   background-size: cover;
 }
